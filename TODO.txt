@@ -1,0 +1,39 @@
+1. done!
+get entrires (categroy id)
+get records (entrie id)
+get operation (record id)
+delete record and pull from operation (operation id, record id)
+delete entrie (entrie id)
+delete category (category id)
+
+---
+2. done!
+get records (entrie id)
+get operation (record id)
+delete record and pull from operation (operation id, record id)
+delete entrie (entrie id)
+
+---
+3.
+done!
+get operator (operator id)
+get operations (operator id)
+get records (operation.records)
+delete records and pull from operation (operation id, record id)
+delete operation and pull from field (filed id, record id)
+delete operator (operator id)
+---
+4. sum income/expense
+
+---
+5.
+check delete functions, som data remaining in db
+
+---
+notes:
+field = föld
+operation = dátum
+operator = kezelő
+record = bejegyzés
+entrie = művelet
+category = kategória
