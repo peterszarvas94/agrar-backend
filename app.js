@@ -25,10 +25,6 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/', (req, res, next)=> {
-    res.send({ status: "success" });
-});
-
 app.use('/api/users', usersRoutes);
 app.use('/api/operators', operatorRoutes);
 app.use('/api/categories', categoryRoutes);
@@ -36,6 +32,10 @@ app.use('/api/entries', entrieRoutes);
 app.use('/api/records', recordRoutes);
 app.use('/api/operations', operationRouted);
 app.use('/api/fields', fieldRoutes);
+
+app.use('/', (req, res, next)=> {
+    res.send({ status: "success" });
+});
 
 app.use((error, req, res, next) => {
     res.status(error.code || 500);
