@@ -1,7 +1,6 @@
 {
   "name": "agrar_2",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -20,5 +19,14 @@
     "start": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterszarvas94/agrar-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterszarvas94/agrar-backend/issues"
+  },
+  "homepage": "https://github.com/peterszarvas94/agrar-backend#readme",
+  "description": ""
 }
