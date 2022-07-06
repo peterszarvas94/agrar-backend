@@ -42,7 +42,7 @@ app.use((error, req, res, next) => {
     res.json({ message: error.message || 'An unknown error occurred!' });
 });
 
-const connectionString = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.qb3xx.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+const connectionString = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.qb3xx.mongodb.net/?retryWrites=true&w=majority`;
 
 mongoose
     .connect(
